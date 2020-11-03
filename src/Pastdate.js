@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 
-class historicalDate extends Component {
+class Pastdate extends Component {
 
   constructor(props) {
     super(props);
@@ -56,4 +56,4 @@ fetchExchangeRates = () => {
         }
     }
  
-export default historicalDate;
+export default Pastdate;

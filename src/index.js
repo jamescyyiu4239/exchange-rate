@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import historicalDate from './historicalDate';
+import Pastdate from './Pastdate';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,7 +11,7 @@ ReactDOM.render(
     <table>
     <tr>
       <td><App /></td>
-      <td><historicalDate /></td>
+      <td><Pastdate /></td>
     </tr>
     </table>
     </div>
