@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import App2 from './App2';
+import historicalApp from './historicalApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -10,8 +10,8 @@ ReactDOM.render(
     <div>
     <table>
     <tr>
-      <td style={{textAlignVertical: 'top'}}><App /></td>
-      <td style={{textAlignVertical: 'top'}}><App2 /></td>
+      <td><App /></td>
+      <td><historicalApp /></td>
     </tr>
     </table>
     </div>
